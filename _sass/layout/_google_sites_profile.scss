@@ -137,8 +137,7 @@ body {
 }
 
 .publication-authors,
-.publication-venue,
-.publication-links {
+.publication-venue {
   margin-bottom: 0.15rem;
   line-height: 1.45;
 }
@@ -146,10 +145,6 @@ body {
 .publication-venue {
   color: #3c4043;
   font-style: italic;
-}
-
-.publication-links {
-  font-size: 0.92rem;
 }
 
 .home-profile {

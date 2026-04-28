@@ -31,9 +31,6 @@ author_profile: false
       {% elsif post.citation %}
         <p class="publication-venue">{{ post.citation }}</p>
       {% endif %}
-      {% if post.paperurl %}
-        <p class="publication-links"><a href="{{ post.paperurl }}">[link]</a></p>
-      {% endif %}
     </li>
   {% endfor %}
 </ol>
