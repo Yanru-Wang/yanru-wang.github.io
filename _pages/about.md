@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 <div class="home-profile">
-  <div class="home-profile__photo home-profile__photo--mark" aria-hidden="true">
-    <span>W-K<br>C</span>
+  <div class="home-profile__photo">
+    <img src="{{ '/images/weikun-chen.jpg' | relative_url }}" alt="Wei-Kun Chen">
   </div>
 
   <div class="home-profile__intro">
@@ -28,10 +28,11 @@ redirect_from:
 
 ## About
 
-Wei-Kun Chen is an Assistant Professor in the School of Mathematics and Statistics at Beijing Institute of Technology. His research focuses on integer programming theory, algorithms and software, with applications in supply chain management and wireless communication.
+Wei-Kun Chen is an Assistant Professor in the School of Mathematics and Statistics at Beijing Institute of Technology. His research focuses on mixed integer linear programming, especially theory, algorithms and optimization software, with applications in supply chain management and wireless communication.
 
 ## Research Interests
 
+- Mixed integer linear programming
 - Integer programming theory
 - Algorithms and optimization software
 - Supply chain management applications
@@ -40,9 +41,25 @@ Wei-Kun Chen is an Assistant Professor in the School of Mathematics and Statisti
 ## News
 
 - [2025] Several recent papers appeared or were accepted in optimization and operations research journals, including work on covering location problems, Benders decomposition, and generalized maximal covering location problems.
+- [2024] Presented work on large-scale probabilistic set covering at Optimization, Analytics, and Decisions in the Big Data Era, in honor of Panos Pardalos's 70th birthday.
+- [2024] Principal investigator for a Huawei Technologies project on preprocessing and cutting planes for mixed integer programming solvers.
+- [2023] Presented work on decomposition algorithms for large-scale network slicing at IEEE SPAWC 2023.
 - [2021] Work on optimal network slicing with flexible routing and guaranteed end-to-end latency was published in IEEE Transactions on Network and Service Management.
 - [2020] Received the Excellent Doctoral Thesis Award of the Chinese Academy of Sciences.
+- [2019] Received the second prize in the 2019 Excellent Young Paper Award of the Computational Mathematics Branch of the Chinese Mathematical Society.
 - [2018] Received the Science and Technology Award / Operations Research Application Award from the Operations Research Society of China.
+
+## Grants
+
+- Principal Investigator, Huawei Technologies Co., Ltd., "Preprocessing and cutting planes for mixed integer programming solvers", 2024.09-2025.08.
+- Principal Investigator, NSFC Grant 12101048, "Cutting planes for knapsack polyhedra in mixed integer programming", 2022.01-2024.12.
+- Principal Investigator, Huawei Technologies Co., Ltd., "Preprocessing and heuristic for mathematical optimization solvers", 2020.07-2021.12.
+
+## Selected Talks
+
+- "Towards Large-Scale Probabilistic Set Covering Problem: An Efficient Benders Decomposition Approach", Optimization, Analytics, and Decisions in the Big Data Era, Halkidiki, Greece, 2024.
+- "An Efficient Decomposition Algorithm for Large-Scale Network Slicing", IEEE SPAWC, Shanghai, China, 2023.
+- "Optimal QoS-Aware Network Slicing for Service-Oriented Networks with Flexible Routing", IEEE ICASSP, Singapore, 2022.
 
 ## Selected Publications
 

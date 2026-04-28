@@ -23,7 +23,7 @@ repository               : "Yanru-Wang/yanru.wang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "weikun-chen.jpg"
   name             : "Wei-Kun Chen"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor, Beijing Institute of Technology"
