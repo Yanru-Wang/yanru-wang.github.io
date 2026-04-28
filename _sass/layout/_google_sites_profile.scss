@@ -53,6 +53,15 @@ body {
   display: none;
 }
 
+.sidebar {
+  display: none;
+}
+
+.page__share,
+.pagination {
+  display: none;
+}
+
 #main {
   max-width: 960px;
   margin-top: 3.5rem;
@@ -105,6 +114,44 @@ body {
   }
 }
 
+.publication-note {
+  margin-bottom: 1.8rem;
+  color: var(--profile-muted-color);
+}
+
+.publication-list {
+  margin-left: 0;
+  padding-left: 1.45rem;
+}
+
+.publication-item {
+  margin-bottom: 1.55rem;
+  padding-left: 0.25rem;
+}
+
+.publication-title {
+  margin-bottom: 0.25rem;
+  color: var(--profile-heading-color);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.publication-authors,
+.publication-venue,
+.publication-links {
+  margin-bottom: 0.15rem;
+  line-height: 1.45;
+}
+
+.publication-venue {
+  color: #3c4043;
+  font-style: italic;
+}
+
+.publication-links {
+  font-size: 0.92rem;
+}
+
 .home-profile {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
@@ -123,20 +170,6 @@ body {
   object-fit: cover;
   object-position: center top;
   box-shadow: none;
-}
-
-.home-profile__photo--mark {
-  display: grid;
-  width: 220px;
-  height: 220px;
-  place-items: center;
-  color: #fff;
-  background: #1a73e8;
-  font-size: 2.2rem;
-  font-weight: 500;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0;
 }
 
 .home-profile__intro {
@@ -197,12 +230,6 @@ body {
   .home-profile__photo img {
     width: 180px;
     height: 220px;
-  }
-
-  .home-profile__photo--mark {
-    width: 180px;
-    height: 180px;
-    font-size: 1.9rem;
   }
 
   .home-profile__intro h1 {

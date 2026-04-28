@@ -5,31 +5,35 @@ permalink: /publications/
 author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+{% assign publications = site.publications | sort: "date" | reverse %}
+
+<p class="publication-note">
+  See also <a href="{{ site.author.googlescholar }}">Google Scholar</a> for citation data and a complete indexed list.
+</p>
+
+<ol class="publication-list">
+  {% for post in publications %}
+    <li class="publication-item">
+      <p class="publication-title">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">{{ post.title }}</a>
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+      </p>
+      {% if post.authors %}
+        <p class="publication-authors">{{ post.authors }}</p>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+      {% if post.publication %}
+        <p class="publication-venue">{{ post.publication }}</p>
+      {% elsif post.citation %}
+        <p class="publication-venue">{{ post.citation }}</p>
+      {% endif %}
+      {% if post.paperurl %}
+        <p class="publication-links"><a href="{{ post.paperurl }}">[link]</a></p>
+      {% endif %}
+    </li>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
+</ol>
