@@ -1,36 +1,52 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publication"
 permalink: /publications/
 author_profile: false
 ---
 
 {% include base_path %}
 
-{% assign publications = site.publications | sort: "date" | reverse %}
-
 <p class="publication-note">
   See also <a href="{{ site.author.googlescholar }}">Google Scholar</a> for citation data and a complete indexed list.
 </p>
 
-<ol class="publication-list">
-  {% for post in publications %}
-    <li class="publication-item">
-      <p class="publication-title">
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}">{{ post.title }}</a>
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </p>
-      {% if post.authors %}
-        <p class="publication-authors">{{ post.authors }}</p>
+{% assign ordered_publications = site.publications | sort: "date" | reverse %}
+{% assign groups = "conference:Conference paper|journal:Journal paper|online:Online" | split: "|" %}
+
+{% for group in groups %}
+  {% assign group_parts = group | split: ":" %}
+  {% assign group_key = group_parts[0] %}
+  {% assign group_title = group_parts[1] %}
+  {% assign has_items = false %}
+
+  <h2>{{ group_title }}</h2>
+  <ol class="publication-list">
+    {% for post in ordered_publications %}
+      {% if post.category == group_key %}
+        {% assign has_items = true %}
+        <li class="publication-item">
+          <p class="publication-title">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}">{{ post.title }}</a>
+            {% else %}
+              {{ post.title }}
+            {% endif %}
+          </p>
+          {% if post.authors %}
+            <p class="publication-authors">{{ post.authors }}</p>
+          {% endif %}
+          {% if post.publication %}
+            <p class="publication-venue">{{ post.publication }}</p>
+          {% elsif post.citation %}
+            <p class="publication-venue">{{ post.citation }}</p>
+          {% endif %}
+        </li>
       {% endif %}
-      {% if post.publication %}
-        <p class="publication-venue">{{ post.publication }}</p>
-      {% elsif post.citation %}
-        <p class="publication-venue">{{ post.citation }}</p>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ol>
+    {% endfor %}
+  </ol>
+
+  {% unless has_items %}
+    <p class="publication-empty">No items yet.</p>
+  {% endunless %}
+{% endfor %}

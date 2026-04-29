@@ -121,6 +121,7 @@ body {
 
 .publication-list {
   margin-left: 0;
+  margin-bottom: 1.4rem;
   padding-left: 1.45rem;
 }
 
@@ -145,6 +146,13 @@ body {
 .publication-venue {
   color: #3c4043;
   font-style: italic;
+}
+
+.publication-empty {
+  margin-top: -0.6rem;
+  margin-bottom: 1.8rem;
+  color: var(--profile-muted-color);
+  font-size: 0.95rem;
 }
 
 .home-profile {
@@ -196,10 +204,7 @@ body {
 }
 
 .page__footer {
-  margin-top: 3rem;
-  color: var(--profile-muted-color);
-  background: #f8fafd;
-  border-top: 1px solid var(--profile-rule-color);
+  display: none;
 }
 
 .page__footer footer {

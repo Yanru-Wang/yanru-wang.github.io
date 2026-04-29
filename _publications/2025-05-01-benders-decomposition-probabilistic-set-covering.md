@@ -1,7 +1,7 @@
 ---
 title: "Benders Decomposition for the Large-scale Probabilistic Set Covering Problem"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/benders-decomposition-probabilistic-set-covering
 excerpt: "Computers and Operations Research, 177, 106994, 2025."
 date: 2025-05-01

@@ -1,7 +1,7 @@
 ---
 title: "An Exact Separation Algorithm for Unsplittable Flow Capacitated Network Design Arc-set Polyhedron"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/unsplittable-flow-capacitated-network-design
 excerpt: "Journal of Global Optimization, 81, 659-689, 2021."
 date: 2021-01-01

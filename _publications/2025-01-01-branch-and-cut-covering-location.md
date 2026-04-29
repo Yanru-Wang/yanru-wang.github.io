@@ -1,7 +1,7 @@
 ---
 title: "An Efficient Branch-and-cut Algorithm for the Minimum Covering Location Problem with Distance Constraints"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/branch-and-cut-covering-location
 excerpt: "Accepted/In press, Journal of Global Optimization, 2025."
 date: 2025-01-01

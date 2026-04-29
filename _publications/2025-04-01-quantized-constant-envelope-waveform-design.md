@@ -1,7 +1,7 @@
 ---
 title: "Quantized Constant-Envelope Waveform Design for Massive MIMO DFRC Systems"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/quantized-constant-envelope-waveform-design
 excerpt: "IEEE Journal on Selected Areas in Communications, 43(4), 1056-1073, 2025."
 date: 2025-04-01

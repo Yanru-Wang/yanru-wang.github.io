@@ -1,7 +1,7 @@
 ---
 title: "An Efficient Sparse Quadratic Programming Relaxation Based Algorithm for Large-Scale MIMO Detection"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/large-scale-mimo-detection
 excerpt: "SIAM Journal on Optimization, 31(2), 1519-1545, 2021."
 date: 2021-06-01

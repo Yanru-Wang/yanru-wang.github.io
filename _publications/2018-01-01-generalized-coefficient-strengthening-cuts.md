@@ -1,7 +1,7 @@
 ---
 title: "Generalized Coefficient Strengthening Cuts for Mixed Integer Programming"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/generalized-coefficient-strengthening-cuts
 excerpt: "Journal of Global Optimization, 70(1), 289-306, 2018."
 date: 2018-01-01

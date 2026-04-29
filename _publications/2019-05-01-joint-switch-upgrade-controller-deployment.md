@@ -1,7 +1,7 @@
 ---
 title: "Joint Switch Upgrade and Controller Deployment in Hybrid Software-Defined Networks"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/joint-switch-upgrade-controller-deployment
 excerpt: "IEEE Journal on Selected Areas in Communications, 37(5), 1012-1028, 2019."
 date: 2019-05-01

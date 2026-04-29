@@ -1,7 +1,7 @@
 ---
 title: "Distributed Recursion Revisited"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/distributed-recursion-revisited
 excerpt: "Accepted/In press, Industrial and Engineering Chemistry Research, 2025."
 date: 2025-01-03

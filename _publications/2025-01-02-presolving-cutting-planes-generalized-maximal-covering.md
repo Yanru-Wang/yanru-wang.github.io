@@ -1,7 +1,7 @@
 ---
 title: "Presolving and Cutting Planes for the Generalized Maximal Covering Location Problem"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/presolving-cutting-planes-generalized-maximal-covering
 excerpt: "Accepted/In press, European Journal of Operational Research, 2025."
 date: 2025-01-02

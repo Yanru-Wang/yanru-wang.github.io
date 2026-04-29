@@ -1,27 +1,6 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
-
 main:
   - title: "Home"
     url: /
 
-  - title: "Publications"
+  - title: "Publication"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/
-
-  - title: "CV"
-    url: /cv/
-
-  - title: "Google Scholar"
-    url: https://scholar.google.com/citations?user=HDtIF_QAAAAJ&hl=en
-
-  - title: "BIT Profile"
-    url: https://pure.bit.edu.cn/en/persons/weikun-chen

@@ -1,7 +1,7 @@
 ---
 title: "Two-row and Two-column Mixed-integer Presolve Using Hashing-based Pairing Methods"
 collection: publications
-category: manuscripts
+category: journal
 permalink: /publication/two-row-two-column-mixed-integer-presolve
 excerpt: "EURO Journal on Computational Optimization, 8, 205-240, 2020."
 date: 2020-01-01
